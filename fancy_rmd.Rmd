@@ -1,0 +1,55 @@
+---
+title: "Fancy Rmd"
+subtitle: "Some changes in YAML"
+author: "Halina Do-Linh"
+output: 
+  html_document: 
+    theme: lumen
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: hide 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# UC Santa Barbara Adventures
+
+See below an extensive list of all the activities I've done in Santa Barbara so far!
+
+# My First Week in Santa Barbara
+
+## Day 1 Activities
+
+ - Coal Oil Beach
+ - Campus Point
+ - Isla Vista
+ 
+```{r}
+ 
+ice_cream <- 5
+
+walks <- 10
+
+ice_cream / walks
+
+```
+ 
+ 
+## Day 2 Activities
+ 
+ - Free Bird Burritos
+ - Bike path
+ - State Street
+ 
+```{r}
+
+bird_obs <- c(2, 3, 4, 5, 1, 6)
+
+mean(bird_obs)
+
+```
+ 
+ 
