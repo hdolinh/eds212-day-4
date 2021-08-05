@@ -74,4 +74,6 @@ insect_y4 <- insect_leslie %*% insect_y3
 
 ```
 
+### Side Notes
 
+Use cmd + A (select all) on files in Git tab to Stage all files at once
